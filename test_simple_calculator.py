@@ -31,4 +31,4 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_division(self):
         """Test the division method."""
         self.assertEqual(self.calc.divide(10, 2), 5)
-        self.assertEqual(self.calc.divide(15, 5), 3)
+        self.assertEqual(self.calc.divide(15, 0), 0)
